@@ -9,3 +9,4 @@ jobs:
         run: echo "This is the first github actions workflow file"
       - name: To print the IP of the runner
         run: ifconfig
+        run: ifconfig | grep inet
