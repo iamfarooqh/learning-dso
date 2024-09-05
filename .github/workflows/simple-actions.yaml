@@ -10,5 +10,7 @@ jobs:
       - name: To print the IP of the runner
         run: |
             ifconfig
+            echo "-------------"
             ifconfig | grep inet
-            ping -c 2 google.com
+            echo "-------------"
+            ping -c 2 172.17.0.1
